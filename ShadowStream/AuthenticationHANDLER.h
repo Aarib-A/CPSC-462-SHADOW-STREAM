@@ -1,11 +1,14 @@
 #ifndef AUTHENTICATIONHANDLER_H
 #define AUTHENTICATIONHANDLER_H
 
+#include <QApplication>
 
-class AuthenticationHandler
+class AuthenticationHANDLER
 {
 public:
-    AuthenticationHandler();
+    AuthenticationHANDLER();
+
+    bool Login(QString User, QString Pass);
 };
 
 #endif // AUTHENTICATIONHANDLER_H
