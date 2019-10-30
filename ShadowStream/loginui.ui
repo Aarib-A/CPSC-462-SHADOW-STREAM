@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>451</width>
-    <height>227</height>
+    <width>495</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>LOGIN</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="userName_field">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -50,7 +50,7 @@
      <string>Password:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="password_field">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -60,6 +60,19 @@
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="AuthenticatBUTTON">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Authenticate</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menubar">
@@ -67,7 +80,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>451</width>
+     <width>495</width>
      <height>26</height>
     </rect>
    </property>

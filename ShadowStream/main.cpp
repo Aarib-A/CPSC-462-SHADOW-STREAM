@@ -1,5 +1,5 @@
-#include "uiwindow.h"
-#include "loginui.h"
+//#include "uiwindow.h"
+#include "LoginUI.h"
 
 #include <QApplication>
 
