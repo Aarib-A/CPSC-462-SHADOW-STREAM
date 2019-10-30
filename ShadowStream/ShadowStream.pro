@@ -19,6 +19,7 @@ SOURCES += \
     AdminSessionHANDLER.cpp \
     AuthenticationHANDLER.cpp \
     LoginUI.cpp \
+    MonitorMODEsessionHANDLER.cpp \
     UserInterfaceHANDLER.cpp \
     main.cpp \
     uiwindow.cpp
@@ -27,6 +28,7 @@ HEADERS += \
     AdminSessionHANDLER.h \
     AuthenticationHANDLER.h \
     LoginUI.h \
+    MonitorMODEsessionHANDLER.h \
     UserInterfaceHANDLER.h \
     uiwindow.h
 

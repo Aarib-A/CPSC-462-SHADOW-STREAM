@@ -11,9 +11,11 @@ public:
     AdminSessionHANDLER();
     ~AdminSessionHANDLER();
 
-    void Login(QString U, QString P){
+    bool Login(QString userName, QString password);
+//    {
 
-    }
+//    }
+
 };
 
 #endif // ADMINSESSIONHANDLER_H

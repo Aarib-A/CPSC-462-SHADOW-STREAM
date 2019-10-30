@@ -1,4 +1,5 @@
 #include "UserInterfaceHANDLER.h"
+#include "AdminSessionHANDLER.h"
 
 UserInterfaceHandler::UserInterfaceHandler()
 {
@@ -8,5 +9,5 @@ UserInterfaceHandler::UserInterfaceHandler()
 
 void UserInterfaceHandler::Login(QString userName, QString password){
     //depends on AdminsSessionHANDLER
-    AdminSessionHANDLER::Login(userName, password);
+    Login(userName, password);
 }
