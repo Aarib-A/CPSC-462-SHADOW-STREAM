@@ -1,0 +1,12 @@
+INPUT(
+./debug\AdminSessionHANDLER.o
+./debug\AuthenticationHANDLER.o
+./debug\ChannelHANDLER.o
+./debug\LoginUI.o
+./debug\MonitorMODEsessionHANDLER.o
+./debug\UserInterfaceHANDLER.o
+./debug\main.o
+./debug\uiwindow.o
+./debug\moc_LoginUI.o
+./debug\moc_uiwindow.o
+);

@@ -14,9 +14,11 @@ public:
 
     ~UserInterfaceHandler();
 
-    void Login(QString userName, QString password);
+    static void Login(QString userName, QString password);
 //    {
-//        AdminSessionHANDLER::
+////        AdminSessionHANDLER::
+//    AdminSessionHANDLER::GetInstance()->login(userName,password);
+
 //    }
 };
 

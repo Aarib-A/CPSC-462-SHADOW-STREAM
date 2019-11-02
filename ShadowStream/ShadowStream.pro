@@ -18,6 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     AdminSessionHANDLER.cpp \
     AuthenticationHANDLER.cpp \
+    ChannelHANDLER.cpp \
     LoginUI.cpp \
     MonitorMODEsessionHANDLER.cpp \
     UserInterfaceHANDLER.cpp \
@@ -27,9 +28,11 @@ SOURCES += \
 HEADERS += \
     AdminSessionHANDLER.h \
     AuthenticationHANDLER.h \
+    ChannelHANDLER.h \
     LoginUI.h \
     MonitorMODEsessionHANDLER.h \
     UserInterfaceHANDLER.h \
+    channel.h \
     uiwindow.h
 
 FORMS += \

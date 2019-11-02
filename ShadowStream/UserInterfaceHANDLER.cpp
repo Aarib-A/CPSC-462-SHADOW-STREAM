@@ -1,13 +1,18 @@
 #include "UserInterfaceHANDLER.h"
 #include "AdminSessionHANDLER.h"
 
-UserInterfaceHandler::UserInterfaceHandler()
-{
+#include <iostream>
 
 
-}
+//UserInterfaceHandler::UserInterfaceHandler()
+//{
+
+
+//}
 
 void UserInterfaceHandler::Login(QString userName, QString password){
     //depends on AdminsSessionHANDLER
-    Login(userName, password);
+//    AdminSessionHANDLER *ptr = AdminSessionHANDLER::GetInstance();
+    AdminSessionHANDLER::GetInstance()->login(userName,password);
+
 }

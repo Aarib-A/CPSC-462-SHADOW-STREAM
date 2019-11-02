@@ -1,9 +1,16 @@
 #include "AuthenticationHANDLER.h"
-//#include "string.h"
-#include "QApplication
+#include <QApplication>
 
-AuthenticationHandler::AuthenticationHandler()
+
+AuthenticationHANDLER::AuthenticationHANDLER()
 {
-    void Login(QString)
 
+}
+
+bool AuthenticationHANDLER::Login(QString User, QString Pass)
+{
+    if(User == "George" && Pass == "Splooney")
+    {return true;}
+    else
+    {return false;}
 }

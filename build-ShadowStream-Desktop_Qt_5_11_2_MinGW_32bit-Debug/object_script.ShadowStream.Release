@@ -1,0 +1,12 @@
+INPUT(
+./release\AdminSessionHANDLER.o
+./release\AuthenticationHANDLER.o
+./release\ChannelHANDLER.o
+./release\LoginUI.o
+./release\MonitorMODEsessionHANDLER.o
+./release\UserInterfaceHANDLER.o
+./release\main.o
+./release\uiwindow.o
+./release\moc_LoginUI.o
+./release\moc_uiwindow.o
+);

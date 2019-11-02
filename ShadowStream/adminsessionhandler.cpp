@@ -1,33 +1,27 @@
 #include "AdminSessionHANDLER.h"
-#include "userinterfacehandler.h"
-#include "uiwindow.h"
+#include "UserInterfaceHANDLER.h"
+//#include "uiwindow.h"
 #include "AuthenticationHANDLER.h"
-//#include "MonitorMODEsessionHANDLER.h"
+#include "MonitorMODEsessionHANDLER.h"
 #include <QApplication>
 #include <QMessageBox>
 
 
 
-AdminSessionHANDLER::AdminSessionHANDLER()
+//AdminSessionHANDLER::AdminSessionHANDLER()
+//{
+
+//}
+
+
+QList<QString> AdminSessionHANDLER::RetrieveChannels()
 {
 
-}
+//        MonitorMODEsessionHANDLER Loader;
+//        Loader.RetrieveChannels();
 
-
-void AdminSessionHANDLER::RetrieveChannels()
-{
-/*
-
-
-
-
-        MonitorMODEsessionHANDLER Loader;
-
-        Loader.RetrieveChannels();
-
-
-
-*/
+    MonitorMODEsessionHANDLER *ptr = MonitorMODEsessionHANDLER::GetInstance();
+    return ptr->RetrieveChannels();
 }
 
 void AdminSessionHANDLER::SelectChannel(QString cname)
@@ -70,7 +64,9 @@ bool AdminSessionHANDLER::login(QString User, QString Pass)
        QMessageBox Msgbox;
        Msgbox.setText("You do not have an Account");
        Msgbox.exec();
+       exit(1);
 
     }
 
+    return true;
 }
